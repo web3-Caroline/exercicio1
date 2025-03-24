@@ -1,0 +1,3 @@
+## Exercicio 1
+1 - Do ponto de vista de rede: HTTP, TCP, IP;
+Do ponto de vista da aplicação: GET, POST, PUT, DELETE;
