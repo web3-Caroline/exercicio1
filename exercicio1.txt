@@ -1,3 +1,25 @@
 ## Exercicio 1
-1 - Do ponto de vista de rede: HTTP, TCP, IP;
-Do ponto de vista da aplicação: GET, POST, PUT, DELETE;
+1 - HTTP (Hypertext Transfer Protocol): Responsável pela comunicação entre o navegador e o servidor. 
+HTTPS (HTTP Secure): Versão segura do HTTP, que utiliza criptografia (TLS/SSL). 
+DNS (Domain Name System): Converte nomes de domínio em endereços IP. 
+TCP (Transmission Control Protocol): Garante a entrega confiável dos pacotes de dados, corrigindo erros e garantindo a ordem correta das mensagens. 
+UDP (User Datagram Protocol): é um protocolo de transporte rápido e leve. 
+IP (Internet Protocol): Responsável pelo endereçamento e roteamento dos pacotes de dados entre dispositivos na rede. 
+ICMP (Internet Control Message Protocol): é um protocolo usado para diagnóstico e comunicação de erros na rede. 
+
+2 - A arquitetura cliente-servidor envolve dois principais componentes: 
+Cliente: É quem faz uma requisição ao servidor pedindo um recurso, como uma página da web. 
+Servidor: Processa a requisição, busca os dados necessários e envia uma resposta ao cliente, geralmente em formato HTML, CSS, JavaScript ou JSON. 
+
+3 - O protocolo HTTP define uma série de interfaces para requisição e resposta;  A requisição é padronizada por meio de verbos:  POST, GET, PUT, DELETE, PATCH, OPTINS, etc.  A resposta é padronizada por meio de código de resposta ou códigos de estados: 200, 301, 404, 500;
+
+ 4 - a) Exemplos de métodos de requisição HTTP 
+GET → Usado para solicitar um recurso (como uma página web ou uma imagem). Não altera dados no servidor. Exemplo: Um navegador acessando um endereço de site. 
+POST → Usado para enviar dados ao servidor, geralmente em formulários ou APIs. Pode criar novos recursos. Exemplo: Um usuário preenchendo e enviando um formulário de cadastro. 
+PUT: atualiza ou cria um recurso. 
+Exemplo: Um sistema alterando os dados de um usuário em um banco de dados. 
+
+b) Exemplos de status de resposta HTTP 
+200 OK → Indica que a requisição foi bem-sucedida e o servidor retornou a resposta esperada. Exemplo: Um navegador acessando uma página com sucesso. 
+404 Not Found → Ocorre quando o recurso solicitado não é encontrado no servidor. Exemplo: Um usuário tentando acessar um link inexistente. 
+500 Internal Server Error → Indica que ocorreu um erro interno no servidor ao processar a requisição. Exemplo: Um problema no código do servidor que impede a execução correta da página. 
